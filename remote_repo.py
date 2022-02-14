@@ -10,3 +10,6 @@ class Bagi():
   
   def print(self):
     print("Semangat yoo, kau pasti bisa")
+    
+  def try1(self):
+    print("ya pastilah semangat")
