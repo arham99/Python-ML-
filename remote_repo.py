@@ -13,3 +13,9 @@ class Bagi():
     def try1(self):
         print("ya pastilah semangat")
 
+    def try2(self):
+        return(self.a**self.b)
+    
+    def try3(self):
+        return(self.a*self.b)
+    
