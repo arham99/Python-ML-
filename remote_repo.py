@@ -8,3 +8,6 @@ class Bagi():
     self.rslt = self.a // self.b
     return("Hasil bagi {} dengan {} adalah {}".format(self.a, self.b, self.rslt))
   
+  def print(self):
+    print("Semangat yoo")
+  
