@@ -21,7 +21,16 @@ class Bagi():
     
     def try4(self):
         return(self.a/self.b)
-    
+
     def try5(self):
         return(self.a*self.b**2)
     
+import socket
+
+def cek_sinyal():
+    
+    try:
+        socket.gethostbyname("www.google.com")
+        return False
+    except:
+        return True
