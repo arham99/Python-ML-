@@ -22,3 +22,6 @@ class Bagi():
     def try4(self):
         return(self.a/self.b)
     
+    def try5(self):
+        return(self.a*self.b**2)
+    
